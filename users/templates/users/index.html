@@ -1,0 +1,461 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+
+ <div id="covid-info" class="absolute px-14 py-3 rounded-full flex justify-between z-50 mt-10" style="box-shadow: 1px 6px 32px 4px rgba(0, 0, 0, 0.11); left: 50%;
+    transform: translate(-50%,-50%);">
+     <p>COVID-19 Info</p>
+     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-4 group-hover:ml-6 arrow-svg " fill="none"
+         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+     </svg>
+ </div>
+
+ <div>
+     <div class="flex justify-between mt-20 main-div items-center">
+         <div class="">
+             <h1 style="line-height: 1.1;" class="text-7xl font-semibold max-w-xl">Deep <span
+                     class="text-primary">Learning</span>
+                 Through Deep <span class="text-primary">Connections</span></h1>
+             <p class="mt-6 text-2xl text-slate-600 max-w-lg">Guidance from peers at no cost. We help students excel
+                 in
+                 school and
+                 overcome
+                 obstacles.</p>
+             <div class="flex max-w-xl">
+                 <button style="box-shadow: 1px 6px 32px 4px rgba(105, 130, 255, 0.31);"
+                     class="bg-primary px-14 py-3 mt-8 overflow-visible text-white rounded-md">Get Started</button>
+                 <div class="flex">
+                     <button class="bg-transparent px-12 py-3 mt-8 text-black group rounded-md align-middle">
+                         <div class="flex">
+                             Learn More
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-4 group-hover:ml-6 arrow-svg "
+                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                             </svg>
+                         </div>
+                     </button>
+                 </div>
+             </div>
+
+
+
+         </div>
+         <img style="height: 360px;" class="main-div"
+             src="https://img.freepik.com/free-vector/children-home-with-tutor-parent-getting-education-tiny-people-home-schooling-home-education-plan-homeschooling-online-tutor-concept_335657-672.jpg?w=2000">
+     </div>
+     <div class="flex justify-between mt-4 items-center">
+
+         <div class="flex items-center">
+             <div class="bg-primary h-16 w-16 text-white rounded-full flex items-center quote-div"
+                 style="margin-top: 30px;">
+                 <svg class="block m-auto text-center" width="31" height="31" viewBox="0 0 31 31" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                         d="M3.87492 27.125C7.74992 27.125 12.9166 25.8333 12.9166 16.7917V6.45832C12.9166 4.84374 11.9401 3.85303 10.3333 3.87499H5.16659C3.552 3.87499 2.58325 4.84374 2.58325 6.42216V14.2083C2.58325 15.8229 3.552 16.7917 5.16659 16.7917C6.45825 16.7917 6.45825 16.7917 6.45825 18.0833V19.375C6.45825 20.6667 5.16659 21.9583 3.87492 21.9583C2.58325 21.9583 2.58325 21.9687 2.58325 23.29V25.8333C2.58325 27.125 2.58325 27.125 3.87492 27.125Z"
+                         stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                     <path
+                         d="M19.3749 27.125C23.2499 27.125 28.4166 25.8333 28.4166 16.7917V6.45832C28.4166 4.84374 27.4388 3.85303 25.8333 3.87499H20.6666C19.052 3.87499 18.0833 4.84374 18.0833 6.42216V14.2083C18.0833 15.8229 19.052 16.7917 20.6666 16.7917H21.6353C21.6353 19.6979 21.9583 21.9583 18.0833 21.9583V25.8333C18.0833 27.125 18.0833 27.125 19.3749 27.125Z"
+                         stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                 </svg>
+
+             </div>
+             <p class="text-semibold text-slate-600 ml-8 max-w-md leading-7 quote-text" style="margin-top: 30px;"></p>
+
+
+         </div>
+         <div class="flex justify-between">
+             <div class="pr-5 stat-1" style="margin-top: 30px;">
+                 <h1 class="text-5xl font-semibold text-center">70</h1>
+                 <p class="text-lg font-medium text-center">Tutors</p>
+             </div>
+             <div class="px-5 stat-2" style="margin-top: 30px;">
+                 <h1 class="text-5xl font-semibold text-center">250</h1>
+                 <p class="text-lg font-medium text-center">Sessions</p>
+             </div>
+             <div class="px-5 stat-3" style="margin-top: 30px;">
+                 <h1 class="text-5xl font-semibold text-center">5</h1>
+                 <p class="text-lg font-medium text-center">States</p>
+             </div>
+             <div class="pl-5 stat-4" style="margin-top: 30px;">
+                 <h1 class="text-5xl font-semibold text-center">5</h1>
+                 <p class="text-lg font-medium text-center">Countries</p>
+             </div>
+         </div>
+
+     </div>
+
+     <div class="bg-primary p-10 text-white rounded-xl mt-20">
+         <div class="flex justify-between">
+             <div>
+                 <div class="flex items-center">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                         class="feather feather-users">
+                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                         <circle cx="9" cy="7" r="4"></circle>
+                         <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                     </svg>
+                     <h1 class="text-xl font-semibold ml-3">Who We Are</h1>
+
+                 </div>
+                 <p class="text-sm mt-3">
+                     PeerLab Tutoring is a student-based FREE tutoring organization based in Smithtown, NY.
+                 </p>
+             </div>
+             <div class="mx-20 ">
+                 <div class="flex items-center">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="feather feather-target">
+                         <circle cx="12" cy="12" r="10"></circle>
+                         <circle cx="12" cy="12" r="6"></circle>
+                         <circle cx="12" cy="12" r="2"></circle>
+                     </svg>
+                     <h1 class="text-xl font-semibold ml-3">Our Mission</h1>
+
+                 </div>
+                 <p class="text-sm mt-3">
+                     We aim to help students excel in school and overcome any learning obstacles
+                 </p>
+             </div>
+             <div>
+                 <div class="flex items-center">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor" stroke-width="2">
+                         <path stroke-linecap="round" stroke-linejoin="round"
+                             d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                     </svg>
+                     <h1 class="text-xl font-semibold ml-3">What We Do</h1>
+
+                 </div>
+                 <p class="text-sm mt-3">
+                     We can help you with everything from a one-time question to sessions throughout the year
+                 </p>
+             </div>
+         </div>
+     </div>
+
+     <div class="flex justify-between items-start mt-36">
+         <div>
+             <h1 class="text-5xl font-semibold text-center ">About Peerlab</h1>
+             <img style="height: 350px;" class="mt-4"
+                 src="https://cdn.dribbble.com/users/1539887/screenshots/15388855/media/89e7a326b6eee8d7bb0f4cfba4a05c40.jpg?compress=1&resize=1600x1200&vertical=top">
+         </div>
+         <div>
+             <p class="text-center max-w-2xl mx-auto">
+                 PeerLab was founded by Jonathan Chung and Aman Mistry and launched with Justin Hippler in 2020. We
+                 desire to
+                 give students help from student tutors who were once in their position at no cost. We will teach
+                 students
+                 strategies and techniques we have developed through our experience in the classroom. We understand
+                 having
+                 difficulty in classes and falling behind, so we want to help students catch up and even exceed their
+                 class
+                 expectations.
+             </p>
+             <p class="text-center mt-10 max-w-2xl mx-auto">Contact us today so we can help you build a stronger
+                 educational
+                 foundation.</p>
+             <p class="text-center mt-10 max-w-2xl mx-auto">We are currently looking for tutors to apply. If you are
+                 interested, please sign up under "Become A Tutor" in the "More" section.</p>
+             <button class="bg-primary px-12 py-3 mt-8 text-white rounded-md mx-auto block button-primary">Become a
+                 Tutor</button>
+         </div>
+
+     </div>
+
+     <div class="">
+         <h1 class="text-5xl font-semibold text-center mt-36">Partnerships</h1>
+         <center>
+             <div class="mt-10">
+                 <div class="flex flex-wrap overflow-hidden">
+
+                     <div class="my-3 px-3 w-full overflow-hidden xl:w-1/2">
+                         <img style="height: 300px; width: 300px;"
+                             src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png">
+                     </div>
+
+                     <div class="my-3 px-3 w-full overflow-hidden xl:w-1/2">
+                         <img style="height: 300px; width: 300px;"
+                             src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png">
+                     </div>
+
+                     <div class="my-3 px-3 w-full overflow-hidden xl:w-1/2">
+                         <img style="height: 300px; width: 300px;"
+                             src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png">
+
+                     </div>
+
+                     <div class="my-3 px-3 w-full overflow-hidden xl:w-1/2">
+                         <img style="height: 300px; width: 300px;"
+                             src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png">
+
+                     </div>
+
+                 </div>
+
+             </div>
+         </center>
+
+     </div>
+     <div class="mt-36">
+         <div class="flex justify-around">
+             <div>
+                 <h1 class="text-2xl font-semibold">Press Recognition</h1>
+                 <div class="mt-3">
+
+                     <a
+                         href="https://patch.com/new-york/smithtown/smithtown-hs-east-juniors-launch-free-tutoring-service-suffolk">
+                         <div class="flex items-center justify-between">
+                             <p>Patch.com</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+
+                     <a href="https://tbrnewsmedia.com/tag/peerlab-tutoring/">
+                         <div class="flex items-center justify-between">
+                             <p>TBR News Media</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+
+                     <a href="https://www.dailyadvent.com/tag/peerlab-tutoring">
+                         <div class="flex items-center justify-between">
+                             <p>Daily Advent</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+                     <a href="https://issuu.com/tbrmedia/docs/ts_031121">
+                         <div class="flex items-center justify-between">
+                             <p>Issuu</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+
+
+                 </div>
+
+             </div>
+             <div>
+                 <h1 class="text-2xl font-semibold">
+                     Government Sites
+                 </h1>
+                 <div class="mt-3">
+                     <a href="https://www.newyorkbusinessgo.com/company/6015849/">
+                         <div class="flex items-center justify-between">
+                             <p>New York Business Co</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+                     <a href="https://newyork-company.com/co/peerlab-tutoring-inc">
+                         <div class="flex items-center justify-between">
+                             <p>New York Company</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+                     <a href="https://opencorporates.com/companies/us_ny/6015849">
+                         <div class="flex items-center justify-between">
+                             <p>Open Corporates</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+                     <a href="https://opencorpdata.com/us-ny/6015849">
+                         <div class="flex items-center justify-between">
+                             <p>Open Corporate Data</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                 <path stroke-linecap="round" stroke-linejoin="round"
+                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                             </svg>
+                         </div>
+                     </a>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+     <div>
+
+     </div>
+
+     <div class="">
+         <h1 class="text-5xl font-semibold text-center mt-36">Accomplishments</h1>
+         <center>
+             <div class="flex flex-wrap mx-auto overflow-hidden mt-10">
+
+                 <div class="my-3 px-3 w-full overflow-hidden xl:w-1/3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor" stroke-width="2">
+                         <path stroke-linecap="round" stroke-linejoin="round"
+                             d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                     </svg>
+                     <h1 class="text-2xl font-medium mt-1">5+ States</h1>
+                     <p class="mt-1 text-slate-600">We have worked in over 5 states including New York, California,
+                         Washington,
+                         New Jersey, and more</p>
+                 </div>
+
+                 <div class="my-3 px-3 w-full overflow-hidden xl:w-1/3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor" stroke-width="2">
+                         <path stroke-linecap="round" stroke-linejoin="round"
+                             d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                     </svg>
+                     <h1 class="text-2xl font-medium mt-1">Partnerships</h1>
+                     <p class="mt-1 text-slate-600">We have partnered with schools across the country including Monte
+                         Vista,
+                         Cowlitz, Life Source Charter School, and The New School of Monmouth </p>
+
+
+                 </div>
+
+                 <div class="my-3 px-3 w-full overflow-hidden xl:w-1/3">
+                     <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path
+                             d="M45.5625 28.2959L42.1875 32.2443L34.4256 40.0062C34.2195 40.2122 33.9636 40.3614 33.6828 40.4392C33.402 40.517 33.1058 40.5207 32.8231 40.45L20.5978 37.3937C20.3685 37.3364 20.1538 37.2315 19.9676 37.0859L8.43748 28.0699M50.7764 25.689L45.5625 28.2959L38.8125 15.3693L44.0794 12.7358C44.4751 12.5379 44.9327 12.5034 45.3537 12.6396C45.7746 12.7758 46.1252 13.0719 46.33 13.464L51.5175 23.3986C51.6213 23.5972 51.6844 23.8145 51.7032 24.0378C51.722 24.2612 51.6962 24.486 51.6272 24.6992C51.5582 24.9124 51.4475 25.1097 51.3014 25.2797C51.1553 25.4496 50.9768 25.5888 50.7764 25.689V25.689ZM8.43748 28.0699L3.2236 25.4629C3.02316 25.3627 2.84468 25.2236 2.6986 25.0536C2.55251 24.8837 2.44173 24.6863 2.37274 24.4731C2.30374 24.2599 2.27791 24.0351 2.29674 23.8118C2.31557 23.5885 2.3787 23.3711 2.48243 23.1725L7.67 13.238C7.87478 12.8458 8.22538 12.5497 8.6463 12.4135C9.06723 12.2773 9.52481 12.3118 9.92052 12.5097L15.1875 15.1432L8.43748 28.0699Z"
+                             stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                         <path
+                             d="M42.1875 32.2441L32.9063 25.4941L30.2063 27.5191C29.0379 28.3954 27.6168 28.8691 26.1563 28.8691C24.6958 28.8691 23.2747 28.3954 22.1063 27.5191L20.9628 26.6616C20.7694 26.5165 20.6094 26.3316 20.4937 26.1193C20.378 25.907 20.3092 25.6724 20.2921 25.4312C20.2749 25.19 20.3098 24.948 20.3944 24.7215C20.4789 24.495 20.6111 24.2893 20.7821 24.1183L29.037 15.8634C29.1937 15.7067 29.3797 15.5824 29.5845 15.4976C29.7892 15.4128 30.0087 15.3691 30.2303 15.3691H38.8125"
+                             stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                         <path
+                             d="M23.625 44.9004L17.2675 43.311C17.0095 43.2465 16.7704 43.122 16.5697 42.9475L11.8125 38.8124M15.3087 15.1431L26.134 11.9871C26.5207 11.8744 26.9349 11.9037 27.3019 12.0697L34.5938 15.3691L15.3087 15.1431Z"
+                             stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                     </svg>
+                     <h1 class="text-2xl font-medium mt-1">Work with NGOs</h1>
+                     <p class="mt-1 text-slate-600">We work with non-governmental organization including Brown
+                         University, Africa
+                         ICT, Children Reachout Uganda, and Itisforchildren.</p>
+
+
+
+                 </div>
+
+                 <div class="my-3 px-3 w-full overflow-hidden xl:w-1/3">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor" stroke-width="2">
+                         <path stroke-linecap="round" stroke-linejoin="round"
+                             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                     </svg>
+                     <h1 class="text-2xl font-medium mt-1">250+ Sessions</h1>
+                     <p class="mt-1 text-slate-600">We have over 250 sessions of tutoring under our belts.</p>
+
+
+                 </div>
+
+                 <div class="my-3 px-3 w-full overflow-hidden xl:w-1/3">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="feather feather-user">
+                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                         <circle cx="12" cy="7" r="4"></circle>
+                     </svg>
+                     <h1 class="text-2xl font-medium mt-1">70+ Tutors</h1>
+                     <p class="mt-1 text-slate-600">We have over 70 tutors that can answer your questions and help your
+                         needs</p>
+
+
+                 </div>
+
+                 <div class="my-3 px-3 w-full overflow-hidden xl:w-1/3">
+                     <svg width="48" height="48" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path
+                             d="M11.5 21.0833C11.1209 21.0833 10.7503 21.1957 10.4351 21.4063C10.1199 21.6169 9.87426 21.9162 9.72919 22.2665C9.58412 22.6167 9.54617 23.0021 9.62012 23.3739C9.69408 23.7457 9.87662 24.0872 10.1447 24.3552C10.4127 24.6233 10.7542 24.8058 11.126 24.8798C11.4978 24.9537 11.8832 24.9158 12.2334 24.7707C12.5837 24.6256 12.883 24.38 13.0936 24.0648C13.3042 23.7496 13.4166 23.379 13.4166 22.9999C13.4166 22.4916 13.2147 22.0041 12.8552 21.6447C12.4958 21.2852 12.0083 21.0833 11.5 21.0833ZM22.7316 18.1124L9.02746 4.38911C8.84875 4.21041 8.6366 4.06865 8.4031 3.97193C8.16961 3.87522 7.91936 3.82544 7.66663 3.82544C7.4139 3.82544 7.16364 3.87522 6.93015 3.97193C6.69666 4.06865 6.4845 4.21041 6.30579 4.38911C5.94488 4.75003 5.74212 5.23954 5.74212 5.74995C5.74212 6.26036 5.94488 6.74987 6.30579 7.11078L8.79746 9.58328H7.66663C6.14163 9.58328 4.6791 10.1891 3.60076 11.2674C2.52243 12.3458 1.91663 13.8083 1.91663 15.3333V30.6666C1.91663 32.1916 2.52243 33.6541 3.60076 34.7325C4.6791 35.8108 6.14163 36.4166 7.66663 36.4166H35.6308L40.8058 41.6108C40.984 41.7904 41.196 41.933 41.4295 42.0303C41.6631 42.1276 41.9136 42.1777 42.1666 42.1777C42.4196 42.1777 42.6702 42.1276 42.9037 42.0303C43.1373 41.933 43.3493 41.7904 43.5275 41.6108C43.7071 41.4326 43.8497 41.2206 43.947 40.9871C44.0443 40.7535 44.0944 40.503 44.0944 40.2499C44.0944 39.9969 44.0443 39.7464 43.947 39.5128C43.8497 39.2793 43.7071 39.0673 43.5275 38.8891L22.7316 18.1124ZM21.3133 22.1183L23.8816 24.6866C23.6105 24.833 23.3081 24.9119 23 24.9166C22.4916 24.9166 22.0041 24.7147 21.6447 24.3552C21.2852 23.9958 21.0833 23.5083 21.0833 22.9999C21.088 22.6918 21.1669 22.3894 21.3133 22.1183ZM7.66663 32.5833C7.15829 32.5833 6.67078 32.3813 6.31134 32.0219C5.95189 31.6625 5.74996 31.1749 5.74996 30.6666V15.3333C5.74996 14.825 5.95189 14.3374 6.31134 13.978C6.67078 13.6185 7.15829 13.4166 7.66663 13.4166H12.6308L18.5725 19.3583C17.7236 20.3826 17.2562 21.6696 17.25 22.9999C17.25 24.5249 17.8558 25.9875 18.9341 27.0658C20.0124 28.1441 21.475 28.7499 23 28.7499C24.3303 28.7437 25.6173 28.2763 26.6416 27.4274L31.7975 32.5833H7.66663ZM38.3333 9.58328H24.265C23.7566 9.58328 23.2691 9.78522 22.9097 10.1447C22.5502 10.5041 22.3483 10.9916 22.3483 11.4999C22.3483 12.0083 22.5502 12.4958 22.9097 12.8552C23.2691 13.2147 23.7566 13.4166 24.265 13.4166H38.3333C38.8416 13.4166 39.3291 13.6185 39.6886 13.978C40.048 14.3374 40.25 14.825 40.25 15.3333V29.4016C40.25 29.9099 40.4519 30.3975 40.8113 30.7569C41.1708 31.1163 41.6583 31.3183 42.1666 31.3183C42.675 31.3183 43.1625 31.1163 43.5219 30.7569C43.8814 30.3975 44.0833 29.9099 44.0833 29.4016V15.3333C44.0833 13.8083 43.4775 12.3458 42.3992 11.2674C41.3208 10.1891 39.8583 9.58328 38.3333 9.58328ZM36.4166 22.9999C36.4166 22.6209 36.3042 22.2503 36.0936 21.9351C35.883 21.6199 35.5837 21.3742 35.2334 21.2292C34.8832 21.0841 34.4978 21.0462 34.126 21.1201C33.7542 21.1941 33.4127 21.3766 33.1447 21.6447C32.8766 21.9127 32.6941 22.2542 32.6201 22.626C32.5462 22.9978 32.5841 23.3832 32.7292 23.7334C32.8743 24.0836 33.1199 24.383 33.4351 24.5936C33.7503 24.8042 34.1209 24.9166 34.5 24.9166C35.0083 24.9166 35.4958 24.7147 35.8552 24.3552C36.2147 23.9958 36.4166 23.5083 36.4166 22.9999Z"
+                             fill="black" />
+                     </svg>
+                     <h1 class="text-2xl font-medium mt-1">Official Nonprofit</h1>
+                     <p class="mt-1 text-slate-600">We have become a recognized nonprofit organization</p>
+
+
+                 </div>
+
+             </div>
+         </center>
+     </div>
+
+ </div>
+
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+     AOS.init({
+         // Global settings:
+         disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+         startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+         initClassName: 'aos-init', // class applied after initialization
+         animatedClassName: 'aos-animate', // class applied on animation
+         useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+         disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+         debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+         throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+         offset: 120, // offset (in px) from the original trigger point
+         delay: 0, // values from 0 to 3000, with step 50ms
+         duration: 400, // values from 0 to 3000, with step 50ms
+         easing: 'ease', // default easing for AOS animations
+         once: true, // whether animation should happen only once - while scrolling down
+         mirror: false, // whether elements should animate out while scrolling past them
+         anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the
+
+     });
+
+     var text = [
+         "“The tutor was very informative, knowledgeable, and patient with me. He answered all my questions and left me understanding and grasping the concept better”",
+         "“This was an excellent experience for my son... The tutor was extremely helpful, encouraging, and went above and beyond to help him with the subject matter”"
+     ];
+     var counter = 0;
+     var elem = $(".quote-text");
+
+     elem.text(text[0]).fadeIn(100);
+
+
+     setInterval(change, 10000);
+
+     function change() {
+         // Fade out
+         elem.fadeOut(100, function () {
+             // Increment the counter
+             counter++;
+             if (counter >= text.length) {
+                 counter = 0;
+             }
+             // Update the text and fade in
+             elem.text(text[counter]).fadeIn(100);
+         })
+     }
+
+     $('#covid-info').fadeIn().delay(3000).fadeOut()
+ </script>
+
+{% endblock content %}

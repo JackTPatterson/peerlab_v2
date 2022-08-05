@@ -1,0 +1,103 @@
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+
+
+
+  font:16px "Outfit";
+}
+
+
+
+.button-primary{
+  transition: all 0.2s ease;
+  
+}
+
+.button-primary:hover{
+  box-shadow: 0px 5px 30px 2px rgba(123,144,255,0.3);
+}
+
+.stat-1{
+  transition: all .2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  animation: slide-up .7s .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.stat-1:hover{
+  color: #5975ff;
+  cursor: pointer;
+}
+
+.stat-2{
+  transition: all .2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  animation: slide-up 0.7s .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.stat-2:hover{
+  color: #5975ff;
+  cursor: pointer;
+}
+
+.stat-3{
+  transition: all .2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  animation: slide-up 0.7s .6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.stat-3:hover{
+  color: #5975ff;
+  cursor: pointer;
+}
+
+.stat-4{
+  transition: all .2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  animation: slide-up 0.7s .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.stat-4:hover{
+  color: #5975ff;
+  cursor: pointer;
+}
+
+.quote-text{
+
+  animation: slide-up 0.7s .3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.main-div{
+
+  animation: slide-up 0.7s .1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.quote-div{
+
+  animation: slide-up 0.7s .2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+
+}
+
+   @keyframes slide-up {
+	0% {
+	  transform: translateY(0);
+	  opacity: 0;
+	}
+  
+	100% {
+	  transform: translateY(-30px);
+	  opacity: 1;
+	}
+  }
+
+
+
+
+
+  .arrow-svg{
+
+  transition: all .2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+
+
+  }

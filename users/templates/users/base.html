@@ -1,0 +1,67 @@
+{% load static %}
+
+<html lang="en">
+
+<head>
+     <title>Dashboard</title>
+     <link rel='stylesheet' href='../../static/stylesheets/style.css' />
+     <link rel='stylesheet' href='../../static/stylesheets/tailwind.css' />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+
+
+    {%block styles%}
+    {%endblock styles%}
+</head>
+
+<body>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+          integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+      {%block scripts%}
+      {%endblock scripts%}
+
+    <div>
+        <div class="flex items-center justify-between overflow-visible">
+            <a href="/">
+                <h1 class="text-primary text-2xl uppercase font-bold leading-5">PEERLAB<br>TUTORING</h1>
+            </a>
+            <div class="flex">
+                <a class="font-semibold mx-4">INFO</a>
+                <a class="font-semibold mx-4">CONTACT</a>
+                <a class="font-semibold mx-4">RESOURCES</a>
+                <a class="font-semibold mx-4">JOIN US</a>
+            </div>
+            <button onclick="window.location.href='/create'"
+                class="overflow-visible bg-primary px-12 py-3 text-white rounded-md button-primary">Create
+                Session</button>
+        </div>
+
+    </div>
+
+    {% block content %}
+    {% endblock content %}
+
+   
+
+
+</body>
+
+</html>
