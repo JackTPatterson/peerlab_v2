@@ -1,0 +1,93 @@
+{% extends 'users/base.html' %}
+
+{% block styles %}
+{% endblock styles %}
+
+{% block scripts %}
+{% endblock scripts %}
+
+{% block content %}
+<h1 class="text-4xl font-semibold text-left mt-6">Create Session</h1>
+<p class="mt-4">
+    If you are interested in starting a branch of PeerLab Tutoring, fill out this application! This is an amazing
+    opportunity to help your community and gain leadership experience. You must sign up with a team of 3-5
+    students.
+    When filling out the form, use commas to separate multiple entries. Ex: John Smith, Aman Mistry
+</p>
+
+<div class="flex justify-between items-center">
+    <h1 class="font-semibold">
+        Become a user now to speed up the sign up proccess
+    </h1>
+    <a href="/">
+        <div class="flex space-x-2 mt-4 items-center justify-end">
+            <h1 class="text-right font-medium">Sign Up</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+
+        </div>
+    </a>
+</div>
+
+{% comment %} <button class="overflow-visible bg-primary px-6 py-3 w-full text-white rounded-md button-primary">
+    <h1>Test Create Session</h1>
+</button> {% endcomment %}
+
+<div>
+
+
+
+    <div class="flex space-x-10 pt-10">
+        <div class="w-1/2">
+            <h1 class="uppercase font-medium">BRANCH</h1>
+            <select class="w-full mt-2 bg-neutral-100 rounded-md py-2.5 px-4" type="text" name="branch" id="branch">
+                <!--Populated by backend-->
+                <option value="">New York</option>
+                <option value="">Conneticut</option>
+
+            </select>
+        </div>
+
+        <div class="w-1/2">
+            <h1 class="uppercase font-medium">Request Tutor</h1>
+            <select class="w-full mt-2 bg-neutral-100 rounded-md py-2.5 px-4" type="text" name="tutor" id="tutor">
+                <!--Populated by backend-->
+                <option value="">Aman Mistry</option>
+                <option value="">Name 2</option>
+                <option value="">Name 3</option>
+            </select>
+        </div>
+
+    </div>
+
+
+    <div class="flex space-x-10 pt-10">
+        <div class="w-1/2">
+            <h1 class="uppercase font-medium">Topic</h1>
+            <select class="w-full mt-2 bg-neutral-100 rounded-md py-2.5 px-4" type="text" name="topic" id="topic">
+                <!--Populated by backend-->
+
+                <option value="">Schoolwork</option>
+            </select>
+        </div>
+        <div class="w-1/2">
+            <h1 class="uppercase font-medium">Subject</h1>
+            <input class="w-full mt-2 bg-neutral-100 rounded-md p-2" type="text" name="subject" id="subject">
+        </div>
+
+
+    </div>
+
+
+    <div class="mt-10 flex mr-10">
+        <button onclick="window.location.href='/create'"
+            class="overflow-visible bg-primary py-3 w-1/2 text-white rounded-md button-primary">Create
+            Session</button>
+    </div>
+
+
+
+</div>
+{% endblock content %}

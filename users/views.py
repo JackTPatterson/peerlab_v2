@@ -8,5 +8,17 @@ def index(request):
 def dashboard(request):
     return render(request, "users/dashboard.html")
 
-def create(request):
-    return render(request, "users/create.html")
+def guestCreate(request):
+    return render(request, "users/guest-create.html")
+
+def userCreate(request):
+    return render(request, "users/user-create.html")
+
+def login(request):
+    return render(request, "users/login.html")
+
+def register(request):
+    return render(request, "users/register.html")
+
+def createSession(request):
+    return None

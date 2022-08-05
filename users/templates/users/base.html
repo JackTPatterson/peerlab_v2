@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-     <title>Dashboard</title>
+     <title>Peerlab</title>
      <link rel='stylesheet' href='../../static/stylesheets/style.css' />
      <link rel='stylesheet' href='../../static/stylesheets/tailwind.css' />
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,9 +49,15 @@
                 <a class="font-semibold mx-4">RESOURCES</a>
                 <a class="font-semibold mx-4">JOIN US</a>
             </div>
-            <button onclick="window.location.href='/create'"
+            {%if not user.is_authenticated%}
+            <button onclick="window.location.href='/guest-create'"
                 class="overflow-visible bg-primary px-12 py-3 text-white rounded-md button-primary">Create
                 Session</button>
+            {%else%}
+            <button onclick="window.location.href='/user-create'"
+                class="overflow-visible bg-primary px-12 py-3 text-white rounded-md button-primary">Create
+                Session</button>
+            {%endif%}
         </div>
 
     </div>

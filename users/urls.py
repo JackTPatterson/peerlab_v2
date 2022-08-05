@@ -6,7 +6,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', views.index, name = 'index'),
-    path('create', views.create, name = 'create'),
+    path('guest-create', views.guestCreate, name = 'guest-create'),
+    path('user-create', views.userCreate, name = 'user-create'),
+    
     path('dashboard', views.dashboard, name = 'dashboard'),
     
     
